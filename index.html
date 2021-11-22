@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jgv6ada.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+<body>
+<header>
+  <div class="grid-container">
+    <div class="grid-x align-middle">
+      <div class="cell medium-4">
+        <a href="#"><img src="img/Logo.jpg"></a>
+      </div>   
+        <div class="cell medium-8 show-for-medium">
+          <ul class="menu align-right">
+            <li><a href="#">Location</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li href="#booknow"><a href="#booknow"><button class="button">BOOK NOW</button></a></li>
+          </ul>        
+      </div>
+    </div>
+</header>
+
+<section class="hero">
+  <img src='img/hero.jpg' alt='hotel building'>
+</section>
+<section class="rooms" id="rooms">
+  <div class="grid-container">
+    <h1>Rooms</h1>
+ 
+    <div class="grid-x">
+      <div class="cell medium-4">
+        <div class="card">
+          <img src="img/bed1.jpg" alt="Single" style="width:100%">
+          <div class="container">
+            <h2>Single</h2>
+
+            <p><button class="button">Book</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell medium-4">
+        <div class="card">
+          <img src="img/bed2.jpg" alt="Sinlge Large" style="width:100%">
+          <div class="container">
+            <h2>Single Large</h2>
+            
+            <p><button class="button">Book</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell medium-4">
+        <div class="card">
+          <img src="img/bed3.jpg" alt="Double" style="width:100%">
+          <div class="container">
+            <h2>Double</h2>
+            
+            <p><button class="button">Book</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section class="building1">
+  <img src='img/building1.jpg' alt='hotel building'>
+</section>
+<section class="amenities" id="amenities">
+  <div class="grid-container">
+    <h1>Amenities</h1>
+
+    <div class="grid-x">
+      <div class="cell medium-4">
+        <div class="card">
+          <img src="img/amen1.jpg" alt="Presentaion" style="width:100%">
+          <div class="container">
+            <h2>Presentaion Room</h2>
+
+            <p><button class="button">Select</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell medium-4">
+        <div class="card">
+          <img src="img/amen2.jpg" alt="Dining" style="width:100%">
+          <div class="container">
+            <h2>Dining Options</h2>
+            
+            <p><button class="button">Select</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell medium-4">
+        <div class="card">
+          <img src="img/amen3.jpg" alt="Double" style="width:100%">
+          <div class="container">
+            <h2>Fitness Center</h2>
+            
+            <p><button class="button">Select</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="building2">
+  <img src='img/building2.jpg' alt='hotel building'>
+</section>
+
+
+<section class="booknow" id="booknow">
+
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="cell medium-3">
+      </div>
+        <div class="cell medium-6">
+      <table class="table">
+        <thead>
+          <tr class="grid-x">
+            <th class="cell small-6">Check in:
+              <input type="text" class="span2" value="" id="dpd1">
+            </th>
+            <th class="cell small-6">Check out:
+              <input type="text" class="span2" value="" id="dpd2">
+            </th>
+          </tr>
+          <tr class="grid-x">
+            <th class="cell">
+              <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+            </th>
+          </tr>        
+        </thead>
+      </table>
+
+      <div id="confirmation-overlay" class="reveal" data-reveal>
+        <div class="grid-x">
+          <div class="cell large-7">
+            <div class="overlay">
+              <h1>Success</h1>
+              <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+            </div>
+          </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<footer>
+<div class="footer-text">
+  <div class="grid-container">
+    <div class="grid-x align-middle">
+      <div class="cell medium-2">
+        <a href="#"><img src="img/HotelLogo3.svg"></a>
+      </div>       
+      <div class="cell medium-10 show-for-medium">
+        <ul class="menu align-right">
+          <li><a href="#">Health & Safety</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>              
+      </div>
+    </div>
+</div>
+
+</footer>
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+
+</html>
